@@ -1,0 +1,108 @@
+name: chess_bot
+description: "a chess bot."
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none'
+
+version: 1.2.2+11
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  path_provider: ^2.0.0
+  intl: ^0.17.0
+  flutter_launcher_icons: ^0.8.1
+  lite_rolling_switch: ^0.1.1
+  shared_preferences: ^2.0.1
+  group_radio_button: ^1.0.1
+  url_launcher: ^6.0.1
+  intl_phone_field:
+  page_transition:
+  fluttertoast:
+  share_plus:
+  clipboard:
+  step_progress_indicator: 
+  youtube_player_flutter:
+  another_flushbar:
+  dotted_border:
+  image_picker:
+  animated_text_kit:
+
+  #with fixed versions because else other packages fail to work (because they depend on older versions etc.)
+  uuid: 2.2.2
+  quiver: 2.1.5
+  #firebase
+#  firebase_core: ^1.0.0
+  firebase_core: ^1.12.0
+#  firebase_analytics: ^7.1.0
+  firebase_analytics: ^9.1.1
+#  cloud_firestore: ^1.0.0
+  cloud_firestore:
+#internet connection checking
+  connectivity: ^3.0.0
+  data_connection_checker: ^0.3.4
+  #json serialization
+  json_annotation: ^4.0.0
+  #for the chess board
+  chess_vectors_flutter: ^1.0.12
+  scoped_model: ^1.1.0
+  platform_device_id: ^1.0.1
+  webview_flutter: ^3.0.4
+  carousel_slider:
+  soundpool:
+  upi_india:
+  percent_indicator:
+  flutter_paypal:
+  flutter_paypal_sdk:
+  flutter_widget_from_html_core:
+  email_auth: ^1.0.0
+  dispose:
+
+dev_dependencies:
+  gen_lang: ^0.1.3
+  json_serializable: ^4.0.1
+  build_runner: ^1.11.5
+  cloud_firestore_platform_interface: 4.0.0
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - res/string/
+    - res/drawable/
+    - res/chess_board/
+    - res/licenses/
+    - assets/images/
+    - assets/audio/
+    - assets/
+    - assets/font/
+    - assets/icons/
+    - assets/images/pieces/
+    - assets/images/pieces/8-bit/
+    - assets/images/pieces/angular/
+    - assets/images/pieces/classic/
+    - assets/images/pieces/letters/
+    - assets/images/pieces/mexicocity/
+    - assets/images/pieces/videochess/
+    - assets/images/pieces/lewischessmen/
+
+#icons
+flutter_icons:
+  image_path_android: "res/drawable/ic_launcher.png"
+  image_path_ios: "res/drawable/ic_launcher.png"
+  android: true
+  ios: true

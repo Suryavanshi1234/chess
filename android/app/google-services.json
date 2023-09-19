@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "377161003686",
+    "firebase_url": "https://realmoneychess-cbeff-default-rtdb.firebaseio.com",
+    "project_id": "realmoneychess-cbeff",
+    "storage_bucket": "realmoneychess-cbeff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377161003686:android:059eb27044d187e69efa67",
+        "android_client_info": {
+          "package_name": "com.foundercode.realmoneychess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377161003686-c7cv2b4uad89cqglhaddg1prl905o83f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foundercode.realmoneychess",
+            "certificate_hash": "b902f245a73966162065344b1cfa88bfe3170591"
+          }
+        },
+        {
+          "client_id": "377161003686-jltbjb32ud1mtm9r3hu9amcp34boonbk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foundercode.realmoneychess",
+            "certificate_hash": "96a146d257ffe5a2a77043c47593d4b90601d0a7"
+          }
+        },
+        {
+          "client_id": "377161003686-q89b70dgru7s3tv75egv4su9s6v8pmvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMFJmc_cQ_TAbyCNYjcwNHPiUjw7xNMJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377161003686-jl18qgh1ivsl54tct7joru6ofloc74lu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
